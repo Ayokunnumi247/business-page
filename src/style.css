@@ -1,0 +1,42 @@
+:root {
+  --logo-font-family: "Satisfy", cursive;
+  --background-color: rgb(244, 213, 233, 0.3);
+}
+
+h1 {
+  font-size: 98px;
+  margin: 0;
+  font-family: var(--logo-font-family);
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-family: var(--logo-font-family);
+  font-weight: 200;
+  font-style: normal;
+  padding-left: 18%;
+  font-size: 50px;
+  line-height: 0.5;
+  display: flex;
+  justify-content: center;
+}
+.package {
+  text-align: center;
+  background: url(https://images.squarespace-cdn.com/content/v1/55353879e4b0995b98f4fede/1573620875314-EJT1ZEN2IQ303TMU9HIO/AdobeStock_268023584.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 190px 20px;
+}
+.navigator {
+  padding: 30px;
+  background-color: rgb(244, 213, 233, 0.3);
+}
+.logo {
+  padding-left: 5%;
+  font-size: 25px;
+  font-family: var(--logo-font-family);
+}
+.container {
+  font-size: 20px;
+  padding-left: 20%;
+}
