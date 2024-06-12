@@ -1,9 +1,11 @@
 :root {
   --logo-font-family: "Satisfy", cursive;
-  --background-color: rgb(244, 213, 233, 0.3);
+  --background-color: rgb(255, 246, 252, 1);
 }
-
-h1 {
+body {
+  background-color: var(--background-color);
+}
+.element {
   font-size: 98px;
   margin: 0;
   font-family: var(--logo-font-family);
@@ -29,14 +31,60 @@ h2 {
 }
 .navigator {
   padding: 30px;
-  background-color: rgb(244, 213, 233, 0.3);
+  background-color: var(--background-color);
 }
 .logo {
   padding-left: 5%;
   font-size: 25px;
   font-family: var(--logo-font-family);
 }
-.container {
+.container-bar {
   font-size: 20px;
   padding-left: 20%;
+}
+.services {
+  margin-top: 10%;
+  padding-bottom: 15%;
+}
+.title {
+  display: flex;
+}
+.business-pictures img {
+  width: 30%;
+  transition: all 200ms ease-in-out;
+}
+.business-pictures:hover {
+  filter: contrast(70%);
+}
+.heading {
+  margin-top: 5%;
+  font-size: 60px;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.branding {
+  font-size: larger;
+  text-align: start !important;
+}
+@media (max-width: 600px) {
+  .element {
+    font-size: 60px;
+  }
+  .package {
+    background-size: auto;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .offering {
+    font-size: 13px !important;
+  }
+  .branding {
+    font-size: 13px;
+  }
+  .container {
+    padding: 2% !important;
+    margin: 0% !important;
+  }
 }
