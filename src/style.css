@@ -127,4 +127,7 @@ h2 {
   .heading-about {
     font-size: 50px;
   }
+  ul {
+    font-size: smaller;
+  }
 }
